@@ -1,27 +1,27 @@
-# AeroMFG AI - Live Website URLs
+# AeroMFG AI - Permanent Production Live URLs
 
-Public HTTPS live deployment endpoints and local development server URLs for the AeroMFG AI project.
+The AeroMFG AI website is deployed on **GitHub Pages** (worldwide CDN, HTTPS, 100% uptime).
 
 ---
 
-## 🌐 Public Live URLs (Worldwide Access)
+## 🚀 Permanent Production Live URLs
 
-| Page Name | Live Public HTTPS URL | Local File |
+| Page Name | Production Live HTTPS Link | Local File |
 | :--- | :--- | :--- |
-| **Command Center (Home)** | [https://57f95997840880.lhr.life/index.html](https://57f95997840880.lhr.life/index.html) | `index.html` |
-| **About Us** | [https://57f95997840880.lhr.life/about.html](https://57f95997840880.lhr.life/about.html) | `about.html` |
-| **AIoT Sensing** | [https://57f95997840880.lhr.life/aiot-intelligence.html](https://57f95997840880.lhr.life/aiot-intelligence.html) | `aiot-intelligence.html` |
-| **Video AI Inspection** | [https://57f95997840880.lhr.life/video-ai.html](https://57f95997840880.lhr.life/video-ai.html) | `video-ai.html` |
-| **Solutions** | [https://57f95997840880.lhr.life/solutions.html](https://57f95997840880.lhr.life/solutions.html) | `solutions.html` |
-| **Industry Insights** | [https://57f95997840880.lhr.life/insights.html](https://57f95997840880.lhr.life/insights.html) | `insights.html` |
-| **Technical Resources & API** | [https://57f95997840880.lhr.life/resources.html](https://57f95997840880.lhr.life/resources.html) | `resources.html` |
-| **Security & Compliance** | [https://57f95997840880.lhr.life/security.html](https://57f95997840880.lhr.life/security.html) | `security.html` |
-| **Engineering Contact** | [https://57f95997840880.lhr.life/contact.html](https://57f95997840880.lhr.life/contact.html) | `contact.html` |
-| **WordPress Theme Directory** | [https://57f95997840880.lhr.life/aeromfg-theme/](https://57f95997840880.lhr.life/aeromfg-theme/) | `aeromfg-theme/` |
+| **Command Center (Home)** | [https://lokesh-varma28.github.io/aeromfg-ai/](https://lokesh-varma28.github.io/aeromfg-ai/) | `index.html` |
+| **About Us** | [https://lokesh-varma28.github.io/aeromfg-ai/about.html](https://lokesh-varma28.github.io/aeromfg-ai/about.html) | `about.html` |
+| **AIoT Sensing** | [https://lokesh-varma28.github.io/aeromfg-ai/aiot-intelligence.html](https://lokesh-varma28.github.io/aeromfg-ai/aiot-intelligence.html) | `aiot-intelligence.html` |
+| **Video AI Inspection** | [https://lokesh-varma28.github.io/aeromfg-ai/video-ai.html](https://lokesh-varma28.github.io/aeromfg-ai/video-ai.html) | `video-ai.html` |
+| **Solutions** | [https://lokesh-varma28.github.io/aeromfg-ai/solutions.html](https://lokesh-varma28.github.io/aeromfg-ai/solutions.html) | `solutions.html` |
+| **Industry Insights** | [https://lokesh-varma28.github.io/aeromfg-ai/insights.html](https://lokesh-varma28.github.io/aeromfg-ai/insights.html) | `insights.html` |
+| **Technical Resources & API** | [https://lokesh-varma28.github.io/aeromfg-ai/resources.html](https://lokesh-varma28.github.io/aeromfg-ai/resources.html) | `resources.html` |
+| **Security & Compliance** | [https://lokesh-varma28.github.io/aeromfg-ai/security.html](https://lokesh-varma28.github.io/aeromfg-ai/security.html) | `security.html` |
+| **Engineering Contact** | [https://lokesh-varma28.github.io/aeromfg-ai/contact.html](https://lokesh-varma28.github.io/aeromfg-ai/contact.html) | `contact.html` |
+| **GitHub Repository** | [https://github.com/lokesh-varma28/aeromfg-ai](https://github.com/lokesh-varma28/aeromfg-ai) | Project Source & WordPress Theme |
 
 ---
 
-## 💻 Local Development Server URLs
+## 💻 Local Development Server
 
 - **Local Base URL**: [http://localhost:8000](http://localhost:8000)
 - **Local Command Center**: [http://localhost:8000/index.html](http://localhost:8000/index.html)
