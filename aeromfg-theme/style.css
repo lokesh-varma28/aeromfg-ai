@@ -1,0 +1,20 @@
+/*
+Theme Name: AeroMFG AI
+Theme URI: https://aeromfgai.com/
+Author: AeroMFG AI Engineering Team
+Author URI: https://aeromfgai.com/
+Description: Mission-critical aerospace and industrial AIoT operational intelligence WordPress theme. Engineered for commercial aircraft assembly lines, space hardware integration, and ISO-classified cleanroom environments.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.7
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: aeromfg-ai
+Tags: industrial, aerospace, modern, responsive-layout, accessibility-ready, custom-menu, translation-ready
+
+==========================================================================
+AeroMFG AI - Master Stylesheet
+Theme styles are enqueued via assets/css/theme.css in functions.php
+==========================================================================
+*/

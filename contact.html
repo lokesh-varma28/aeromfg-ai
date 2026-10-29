@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AeroMFG AI - Engineering Consultation &amp; Facility Assessment</title>
+  <meta name="description" content="Engage with AeroMFG AI flight systems engineers and industrial IoT architects to schedule an on-site operational facility assessment and technical demonstration.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Accessible Skip Link -->
+  <a href="#main-content" class="sr-only" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">Skip to main content</a>
+
+  <!-- Global Navigation Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo" aria-label="AeroMFG AI Home">
+          <div class="brand-icon">A</div>
+          <div class="brand-text">AeroMFG<span>.AI</span></div>
+          <span class="brand-badge">Flight Grade</span>
+        </a>
+
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation menu" aria-controls="primary-navigation">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+
+        <nav id="primary-navigation" class="nav-menu" aria-label="Primary Site Navigation">
+          <a href="index.html" class="nav-link">Command</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="aiot-intelligence.html" class="nav-link">AIoT Sensing</a>
+          <a href="video-ai.html" class="nav-link">Video AI</a>
+          <a href="solutions.html" class="nav-link">Solutions</a>
+          <a href="insights.html" class="nav-link">Insights</a>
+          <a href="resources.html" class="nav-link">Resources</a>
+          <a href="security.html" class="nav-link">Security</a>
+          <a href="contact.html" class="nav-link active" aria-current="page">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <section class="section section-hero">
+      <div class="container">
+        <div class="hero-grid" style="grid-template-columns: 1fr 1.15fr; gap: 3.5rem;">
+          
+          <!-- Contact Left Info Column -->
+          <div>
+            <div class="pill">
+              <span class="pill-dot"></span>
+              Direct Engineering Consultation
+            </div>
+            <h1>Aerospace Facility Assessment &amp; Inquiries</h1>
+            <p class="lead">
+              Collaborate directly with our aerospace systems engineers and deployment specialists to evaluate your hangar RF topology, cleanroom classes, and digital thread architecture.
+            </p>
+            <p>
+              We conduct comprehensive on-site RF heatmapping, electromagnetic compatibility (EMC) testing, and ERP/MES data pathway evaluations to ensure rapid, zero-downtime commissioning.
+            </p>
+
+            <div style="margin-top: 2rem; display: flex; flex-direction: column; gap: 1.25rem;">
+              <div class="card" style="padding: 1.25rem 1.5rem;">
+                <h4 style="font-size: 1.05rem; margin-bottom: 0.25rem;">Technical Response Timeline</h4>
+                <p style="margin-bottom: 0; font-size: 0.92rem; color: var(--color-text-muted);">
+                  Inquiries are assigned directly to an aerospace solutions architect within 1 business day.
+                </p>
+              </div>
+
+              <div class="card" style="padding: 1.25rem 1.5rem;">
+                <h4 style="font-size: 1.05rem; margin-bottom: 0.25rem;">ITAR &amp; Classified Program Inquiries</h4>
+                <p style="margin-bottom: 0; font-size: 0.92rem; color: var(--color-text-muted);">
+                  Security-cleared engineering personnel are available upon request for classified defense program reviews.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Right Form Column -->
+          <div>
+            <form class="contact-form" action="#" method="POST" novalidate>
+              <h2 style="font-size: 1.75rem; margin-bottom: 0.5rem;">Request Engineering Assessment</h2>
+              <p style="font-size: 0.95rem; margin-bottom: 2rem;">
+                Provide your facility specifications and technical requirements below.
+              </p>
+
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Full Name &amp; Title</label>
+                <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Dr. Elena Vance, Chief Systems Engineer" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Corporate or Government Email</label>
+                <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. e.vance@aerospace-prime.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-org" class="form-label">Organization / Prime Contractor</label>
+                <input type="text" id="contact-org" name="organization" class="form-input" placeholder="e.g. Commercial Airframe / Orbital Launch Division" required>
+              </div>
+
+              <div class="form-group">
+                <label for="facility-type" class="form-label">Primary Facility Focus</label>
+                <select id="facility-type" name="facility_type" class="form-select">
+                  <option value="commercial-fal">Commercial Aircraft Final Assembly Line (FAL)</option>
+                  <option value="cleanroom">ISO Class 5 / 7 Cleanroom Satellite Integration</option>
+                  <option value="launch-pad">Launch Complex GSE &amp; Cryogenic Hazard Zone</option>
+                  <option value="tier1-machining">Tier-1 Aerostructures &amp; Engine Component Machining</option>
+                  <option value="other">Other High-Consequence Aerospace Operation</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Scope of Operational Requirements</label>
+                <textarea id="contact-message" name="message" class="form-textarea" rows="4" placeholder="Describe facility square footage, target tracking assets, video inspection stations, or integration timelines..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.85rem 1.5rem; font-size: 1.05rem;">Submit Technical Inquiry</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>AeroMFG<span>.AI</span></h3>
+          <p>Mission-critical operational intelligence and AIoT sensing frameworks engineered specifically for commercial aircraft manufacturing, space integration, and launch complexes.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Command Center</a></li>
+            <li><a href="about.html" class="footer-link">About Us</a></li>
+            <li><a href="aiot-intelligence.html" class="footer-link">AIoT Sensing</a></li>
+            <li><a href="video-ai.html" class="footer-link">Video AI Inspection</a></li>
+            <li><a href="solutions.html" class="footer-link">Solutions</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Platform</h4>
+          <ul class="footer-links">
+            <li><a href="insights.html" class="footer-link">Industry Insights</a></li>
+            <li><a href="resources.html" class="footer-link">API &amp; Schematics</a></li>
+            <li><a href="security.html" class="footer-link">Security &amp; Compliance</a></li>
+            <li><a href="contact.html" class="footer-link">Contact Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Enterprise Standards</h4>
+          <ul class="footer-links">
+            <li class="footer-link">ISO 9001 / AS9100D Aligned</li>
+            <li class="footer-link">ISO Class 5 &amp; 7 Cleanroom Certified</li>
+            <li class="footer-link">NIST 800-171 / ITAR Compliant Tunnels</li>
+            <li class="footer-link">Zero-Trust Edge IAM Architecture</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 AeroMFG AI Platform. All rights reserved. Commercial Aircraft &amp; Space Flight Intelligence.</div>
+        <div>Designed for enterprise aerospace prime contractors and tier-1 integration facilities.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

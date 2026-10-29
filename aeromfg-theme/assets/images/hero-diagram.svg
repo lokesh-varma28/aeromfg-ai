@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="600" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0b1329"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="blueGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="copperGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#c2632b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="600" height="400" rx="12" fill="url(#bgGrad)"/>
+
+  <!-- Blueprint Grid Overlay -->
+  <path d="M0 50h600M0 100h600M0 150h600M0 200h600M0 250h600M0 300h600M0 350h600" stroke="#334155" stroke-width="0.5" stroke-dasharray="3 3"/>
+  <path d="M50 0v400M100 0v400M150 0v400M200 0v400M250 0v400M300 0v400M350 0v400M400 0v400M450 0v400M500 0v400M550 0v400" stroke="#334155" stroke-width="0.5" stroke-dasharray="3 3"/>
+
+  <!-- Central Aerospace Aircraft / Subassembly Wireframe -->
+  <path d="M300 90 L330 180 L490 230 L480 250 L330 230 L320 290 L360 320 L350 330 L300 315 L250 330 L240 320 L280 290 L270 230 L120 250 L110 230 L270 180 Z" stroke="url(#blueGlow)" stroke-width="2" fill="rgba(37,99,235,0.08)"/>
+
+  <!-- AIoT Telemetry Circles & Nodes -->
+  <circle cx="300" cy="90" r="14" stroke="#38bdf8" stroke-width="1.5" fill="#0f172a"/>
+  <circle cx="300" cy="90" r="4" fill="#38bdf8"/>
+  <text x="325" y="85" fill="#93c5fd" font-family="'Space Grotesk', monospace" font-size="11" font-weight="600">RADAR &amp; AVIONICS HUB</text>
+
+  <circle cx="210" cy="225" r="10" stroke="url(#copperGlow)" stroke-width="1.5" fill="#0f172a"/>
+  <circle cx="210" cy="225" r="3" fill="#fb923c"/>
+  <text x="130" y="275" fill="#fdba74" font-family="'Space Grotesk', monospace" font-size="10">PORT WING STRAIN SENSOR</text>
+  <line x1="210" y1="225" x2="180" y2="265" stroke="#fb923c" stroke-width="1" stroke-dasharray="2 2"/>
+
+  <circle cx="390" cy="225" r="10" stroke="url(#copperGlow)" stroke-width="1.5" fill="#0f172a"/>
+  <circle cx="390" cy="225" r="3" fill="#fb923c"/>
+  <text x="375" y="275" fill="#fdba74" font-family="'Space Grotesk', monospace" font-size="10">STARBOARD BLE BEACON</text>
+  <line x1="390" y1="225" x2="420" y2="265" stroke="#fb923c" stroke-width="1" stroke-dasharray="2 2"/>
+
+  <circle cx="300" cy="210" r="12" stroke="#10b981" stroke-width="1.5" fill="#0f172a"/>
+  <circle cx="300" cy="210" r="4" fill="#10b981"/>
+  <text x="320" y="215" fill="#6ee7b7" font-family="'Space Grotesk', monospace" font-size="10">CORE AI INFERENCE NODE</text>
+
+  <!-- Live Telemetry Stream Graphic -->
+  <rect x="35" y="30" width="180" height="75" rx="6" fill="rgba(15, 23, 42, 0.85)" stroke="#334155"/>
+  <text x="48" y="50" fill="#94a3b8" font-family="'Space Grotesk', monospace" font-size="10">TELEMETRY FREQ: 2.4 GHz UWB</text>
+  <text x="48" y="70" fill="#38bdf8" font-family="'Space Grotesk', monospace" font-size="12" font-weight="700">SUB-METER 3D: 0.14m</text>
+  <text x="48" y="90" fill="#10b981" font-family="'Space Grotesk', monospace" font-size="10">STATUS: FLIGHT READY [ISO 5]</text>
+
+  <!-- Ground Support Connection Box -->
+  <rect x="385" y="310" width="180" height="65" rx="6" fill="rgba(15, 23, 42, 0.85)" stroke="#334155"/>
+  <text x="398" y="332" fill="#94a3b8" font-family="'Space Grotesk', monospace" font-size="10">ERP / MES DATA BRIDGE</text>
+  <text x="398" y="352" fill="#fb923c" font-family="'Space Grotesk', monospace" font-size="11" font-weight="600">REST API ENCRYPTED</text>
+  <circle cx="545" cy="342" r="5" fill="#10b981"/>
+</svg>

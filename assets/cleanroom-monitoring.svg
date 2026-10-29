@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360" width="100%" height="100%" fill="none">
+  <rect width="700" height="360" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- Cleanroom Zone Schematic -->
+  <rect x="40" y="40" width="620" height="280" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Zone Header -->
+  <rect x="40" y="40" width="620" height="40" rx="8 8 0 0" fill="#0f172a"/>
+  <text x="60" y="66" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">ISO CLASS 5 / 7 CLEANROOM TELEMETRY &amp; PROXIMITY GRID</text>
+  <circle cx="630" cy="60" r="6" fill="#10b981"/>
+
+  <!-- Floor Grid & Airflow -->
+  <line x1="40" y1="180" x2="660" y2="180" stroke="#e2e8f0" stroke-dasharray="4 4"/>
+  
+  <!-- Bay A: Satellite Optical Integration -->
+  <rect x="65" y="100" width="250" height="190" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="80" y="125" fill="#1e40af" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700">BAY A: OPTICAL PAYLOAD</text>
+  <text x="80" y="145" fill="#475569" font-family="'Inter', sans-serif" font-size="11">Particulate Count: 3,420 / m³ (ISO 5 Spec: &lt;3,520)</text>
+  <text x="80" y="165" fill="#475569" font-family="'Inter', sans-serif" font-size="11">Ambient Temp: 20.1°C ± 0.2°C</text>
+  <text x="80" y="185" fill="#475569" font-family="'Inter', sans-serif" font-size="11">Relative Humidity: 42.4% RH</text>
+  <rect x="80" y="205" width="220" height="28" rx="4" fill="#ffffff" stroke="#93c5fd"/>
+  <text x="90" y="223" fill="#1d4ed8" font-family="'Inter', sans-serif" font-size="10" font-weight="600">Personnel Present: 2 (Badged ISO-5 Certified)</text>
+  <rect x="80" y="243" width="120" height="24" rx="4" fill="#dbeafe"/>
+  <text x="95" y="259" fill="#1e40af" font-family="'Space Grotesk', sans-serif" font-size="10" font-weight="700">STATUS: NOMINAL</text>
+
+  <!-- Bay B: Propulsion & Fuel Handling Hazard Zone -->
+  <rect x="345" y="100" width="285" height="190" rx="6" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="360" y="125" fill="#9a3412" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700">BAY B: PROPELLANT LOADING HAZARD ZONE</text>
+  <text x="360" y="145" fill="#78350f" font-family="'Inter', sans-serif" font-size="11">Real-time Perimeter Proximity: Active Radar/BLE</text>
+  <text x="360" y="165" fill="#78350f" font-family="'Inter', sans-serif" font-size="11">Vapor Detection Sensor: 0.00 ppm</text>
+  <text x="360" y="185" fill="#78350f" font-family="'Inter', sans-serif" font-size="11">Pressure Baseline: 101.3 kPa</text>
+  <rect x="360" y="205" width="255" height="28" rx="4" fill="#ffffff" stroke="#fdba74"/>
+  <text x="370" y="223" fill="#c2632b" font-family="'Inter', sans-serif" font-size="10" font-weight="600">Safety Mandate: Autonomous Exclusion Lock Active</text>
+  <rect x="360" y="243" width="160" height="24" rx="4" fill="#ffedd5"/>
+  <text x="375" y="259" fill="#9a3412" font-family="'Space Grotesk', sans-serif" font-size="10" font-weight="700">EXCLUSION VERIFIED</text>
+</svg>

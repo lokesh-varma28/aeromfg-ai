@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="layerGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="700" height="360" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- Layer 1: Sensor & Edge Nodes -->
+  <rect x="30" y="40" width="180" height="280" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="30" y="40" width="180" height="36" rx="8 8 0 0" fill="#2563eb"/>
+  <text x="50" y="63" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700">1. SENSOR EDGE LAYER</text>
+
+  <rect x="45" y="95" width="150" height="42" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="55" y="114" fill="#1e40af" font-family="'Inter', sans-serif" font-size="11" font-weight="600">On-Metal RFID Tags</text>
+  <text x="55" y="128" fill="#64748b" font-family="'Inter', sans-serif" font-size="9">Airframe Subassemblies</text>
+
+  <rect x="45" y="147" width="150" height="42" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="55" y="166" fill="#1e40af" font-family="'Inter', sans-serif" font-size="11" font-weight="600">UWB &amp; BLE Beacons</text>
+  <text x="55" y="180" fill="#64748b" font-family="'Inter', sans-serif" font-size="9">Sub-meter 3D Positioning</text>
+
+  <rect x="45" y="199" width="150" height="42" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="55" y="218" fill="#1e40af" font-family="'Inter', sans-serif" font-size="11" font-weight="600">Environmental Nodes</text>
+  <text x="55" y="232" fill="#64748b" font-family="'Inter', sans-serif" font-size="9">ISO Particulates / Temp / RH</text>
+
+  <rect x="45" y="251" width="150" height="42" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="55" y="270" fill="#1e40af" font-family="'Inter', sans-serif" font-size="11" font-weight="600">Calibrated Smart Tools</text>
+  <text x="55" y="284" fill="#64748b" font-family="'Inter', sans-serif" font-size="9">Torque / Fastener Telemetry</text>
+
+  <!-- Connectors 1 to 2 -->
+  <path d="M210 180 L260 180" stroke="#2563eb" stroke-width="2" stroke-dasharray="4 4"/>
+  <polygon points="260,176 268,180 260,184" fill="#2563eb"/>
+
+  <!-- Layer 2: Secure Mesh & Edge Gateways -->
+  <rect x="268" y="40" width="180" height="280" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="268" y="40" width="180" height="36" rx="8 8 0 0" fill="#c2632b"/>
+  <text x="285" y="63" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700">2. EDGE GATEWAY &amp; BUS</text>
+
+  <rect x="283" y="100" width="150" height="50" rx="6" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="293" y="122" fill="#9a3412" font-family="'Inter', sans-serif" font-size="11" font-weight="600">Zero-Trust Tunneling</text>
+  <text x="293" y="138" fill="#78350f" font-family="'Inter', sans-serif" font-size="9">mTLS 1.3 / AES-256 GCM</text>
+
+  <rect x="283" y="165" width="150" height="50" rx="6" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="293" y="187" fill="#9a3412" font-family="'Inter', sans-serif" font-size="11" font-weight="600">Edge Stream Processor</text>
+  <text x="293" y="203" fill="#78350f" font-family="'Inter', sans-serif" font-size="9">&lt;10ms Ingestion Latency</text>
+
+  <rect x="283" y="230" width="150" height="50" rx="6" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="293" y="252" fill="#9a3412" font-family="'Inter', sans-serif" font-size="11" font-weight="600">Local Buffer / Failover</text>
+  <text x="293" y="268" fill="#78350f" font-family="'Inter', sans-serif" font-size="9">Air-gapped Launch Ready</text>
+
+  <!-- Connectors 2 to 3 -->
+  <path d="M448 180 L498 180" stroke="#c2632b" stroke-width="2" stroke-dasharray="4 4"/>
+  <polygon points="498,176 506,180 498,184" fill="#c2632b"/>
+
+  <!-- Layer 3: Aerospace AI Core & MES/ERP -->
+  <rect x="506" y="40" width="165" height="280" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="506" y="40" width="165" height="36" rx="8 8 0 0" fill="#0f172a"/>
+  <text x="520" y="63" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700">3. AI INTELLIGENCE</text>
+
+  <rect x="516" y="100" width="145" height="50" rx="6" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="526" y="122" fill="#0f172a" font-family="'Inter', sans-serif" font-size="11" font-weight="600">Digital Twin Engine</text>
+  <text x="526" y="138" fill="#475569" font-family="'Inter', sans-serif" font-size="9">Live 3D CAD Correlation</text>
+
+  <rect x="516" y="165" width="145" height="50" rx="6" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="526" y="187" fill="#0f172a" font-family="'Inter', sans-serif" font-size="11" font-weight="600">Predictive Quality AI</text>
+  <text x="526" y="203" fill="#475569" font-family="'Inter', sans-serif" font-size="9">Defect &amp; Hazard Alerts</text>
+
+  <rect x="516" y="230" width="145" height="50" rx="6" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="526" y="252" fill="#0f172a" font-family="'Inter', sans-serif" font-size="11" font-weight="600">Enterprise MES Bridge</text>
+  <text x="526" y="268" fill="#475569" font-family="'Inter', sans-serif" font-size="9">REST API &amp; Webhooks</text>
+</svg>

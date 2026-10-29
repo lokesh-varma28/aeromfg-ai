@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360" width="100%" height="100%" fill="none">
+  <rect width="700" height="360" rx="12" fill="#0b1329" stroke="#1e293b"/>
+  
+  <!-- Optical Scan Grid -->
+  <path d="M50 50h600M50 110h600M50 170h600M50 230h600M50 290h600" stroke="#1e293b" stroke-width="1"/>
+  <path d="M100 30v300M200 30v300M300 30v300M400 30v300M500 30v300M600 30v300" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Aircraft Assembly Section Outline -->
+  <path d="M120 180 Q250 80 450 100 L560 140 L540 240 L380 250 L120 230 Z" stroke="#38bdf8" stroke-width="2" fill="rgba(37,99,235,0.06)"/>
+
+  <!-- Bounding Boxes - Computer Vision AI -->
+  <!-- Box 1: Door Plug / Latch Fastener Pin -->
+  <rect x="220" y="115" width="110" height="70" rx="4" stroke="#10b981" stroke-width="2" fill="rgba(16,185,129,0.08)"/>
+  <rect x="220" y="93" width="110" height="22" rx="4 4 0 0" fill="#10b981"/>
+  <text x="226" y="108" fill="#ffffff" font-family="'Space Grotesk', monospace" font-size="10" font-weight="700">LOCK PIN: VERIFIED 99.8%</text>
+  <circle cx="275" cy="150" r="16" stroke="#10b981" stroke-dasharray="3 3"/>
+  <circle cx="275" cy="150" r="4" fill="#10b981"/>
+
+  <!-- Box 2: Sealant Continuity / Tolerance -->
+  <rect x="370" y="145" width="135" height="75" rx="4" stroke="#fb923c" stroke-width="2" fill="rgba(251,146,60,0.08)"/>
+  <rect x="370" y="123" width="135" height="22" rx="4 4 0 0" fill="#c2632b"/>
+  <text x="376" y="138" fill="#ffffff" font-family="'Space Grotesk', monospace" font-size="10" font-weight="700">SEAL BEAD: TMR ±0.02mm</text>
+  <path d="M390 180 Q430 170 480 185" stroke="#fb923c" stroke-width="3"/>
+
+  <!-- HUD Telemetry Panel -->
+  <rect x="40" y="270" width="620" height="60" rx="6" fill="rgba(15,23,42,0.9)" stroke="#334155"/>
+  <text x="60" y="295" fill="#94a3b8" font-family="'Space Grotesk', monospace" font-size="11">INSPECTION FEED: CAMERA-BAY-04 (OPTICAL HD 60FPS)</text>
+  <text x="60" y="315" fill="#38bdf8" font-family="'Space Grotesk', monospace" font-size="12" font-weight="700">CAD DIGITAL TWIN CORRELATION: SYNCHRONIZED | FOD DETECTION: ZERO DEFECTS DETECTED</text>
+</svg>
